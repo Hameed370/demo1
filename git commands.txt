@@ -1,0 +1,152 @@
+git config --global user.name "Hameed "
+git config --global user.email "hameed370@gmail.com"
+
+goto your project's root folder 
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Hameed370/demo1.git
+git push -u origin master
+
+
+===========================
+
+
+
+
+C:\Users\Administrator\Desktop>cd demo1
+
+C:\Users\Administrator\Desktop\demo1>git init
+Initialized empty Git repository in C:/Users/Administrator/Desktop/demo1/.git/
+
+C:\Users\Administrator\Desktop\demo1>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\Administrator\Desktop\demo1>git add .
+
+C:\Users\Administrator\Desktop\demo1>git commit -m "my first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(NULL)>) not allowed
+
+C:\Users\Administrator\Desktop\demo1>git config --global user.name "Hameed Ansari"
+
+C:\Users\Administrator\Desktop\demo1>git config --global user.email "hameed370@gmail.com"
+
+C:\Users\Administrator\Desktop\demo1>git commit -m "my first commit"
+[master (root-commit) f30be68] my first commit
+ 1 file changed, 1596 insertions(+)
+ create mode 100644 new3.html
+
+C:\Users\Administrator\Desktop\demo1>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Administrator\Desktop\demo1>git remote add origin https://github.com/Hameed370/demo1.git
+
+C:\Users\Administrator\Desktop\demo1>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': hameed370
+Password for 'https://hameed370@github.com/':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 9.28 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Hameed370/demo1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\Administrator\Desktop\demo1>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\Administrator\Desktop\demo1>git commit -m "my commit 1"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   new3.html
+
+no changes added to commit
+
+C:\Users\Administrator\Desktop\demo1>git add .
+
+C:\Users\Administrator\Desktop\demo1>git commit -m "my first commit 1"
+[master 0137335] my first commit 1
+ 1 file changed, 1 insertion(+), 84 deletions(-)
+
+C:\Users\Administrator\Desktop\demo1>git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Hameed370/demo1.git
+   f30be68..0137335  master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\Administrator\Desktop\demo1>
+
+
+
+
+
+
+
+
+ 
